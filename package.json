@@ -1,7 +1,7 @@
 {
   "name": "postcss-extract-media-only",
-  "version": "0.0.0",
-  "description": "PostCSS plugin Extract media query rules for extra IE",
+  "version": "0.1.0",
+  "description": "PostCSS plugin Extract media queries only",
   "keywords": [
     "postcss",
     "css",
@@ -33,7 +33,7 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-standard": "^4.0.0",
-    "jest": "^23.6.0"
+    "jest": "^24.8.0"
   },
   "eslintConfig": {
     "extends": "eslint-config-postcss/es5"
