@@ -1,7 +1,7 @@
-var postcss = require('./node_modules/postcss/lib/postcss');
+var postcss = require('postcss');
 
 var defaultOpts = {
-  replace: [],
+  replace: []
 };
 module.exports = postcss.plugin('postcss-extract-media-only', function(opts) {
   opts = { ...defaultOpts, ...opts };
